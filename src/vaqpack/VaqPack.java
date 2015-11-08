@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package vaqpack;
-
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.scene.Scene;
@@ -25,7 +24,7 @@ public class VaqPack extends Application {
         btn.setOnAction((ActionEvent event) -> {
             System.out.println("Hello World!");
         });
-        
+
         StackPane root = new StackPane();
         root.getChildren().add(btn);
         
